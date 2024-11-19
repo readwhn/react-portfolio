@@ -1,0 +1,107 @@
+/* Styling for the repository list page */
+.repo-page-container {
+  padding: 20px;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+.repo-page-container h1 {
+  font-size: 2.5rem;
+  color: #343a40;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.repo-page-container ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.repo-page-container li {
+  background-color: #fff;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.repo-page-container li a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #007bff;
+}
+
+.repo-page-container li button {
+  font-size: 0.9rem;
+  margin-left: 10px;
+}
+
+.create-repo-btn {
+  margin-bottom: 20px;
+}
+
+/* Styling for the search bar and filter */
+.search-form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.search-btn {
+  margin-left: 10px;
+}
+
+.filter-dropdown {
+  margin: 10px auto;
+  display: block;
+  width: 200px;
+}
+
+/* Pagination buttons */
+.pagination-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination-buttons button {
+  margin: 0 10px;
+}
+
+/* Styling for the modal */
+.modal-header {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.modal-header .close {
+  color: #fff;
+}
+
+.modal-body {
+  background-color: #f8f9fa;
+}
+
+.modal-body .form-control {
+  margin-bottom: 15px;
+}
+
+.modal-body button {
+  width: 100%;
+  font-size: 1rem;
+}
+
+.modal-footer {
+  border-top: 0;
+}
+
+.modal-footer .btn-secondary {
+  background-color: #dc3545;
+  border: none;
+}
+
+.modal-footer .btn-secondary:hover {
+  background-color: #c82333;
+}
